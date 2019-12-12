@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!--DRY: dont repeat self, how can I reproduce the content of the header and footer from my index page without implmenting js?-->
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta id="viewport" width="device-width, initial-scale=1"/>
+        <title>Contact Page - MichaelJRempe.github.io</title>
+        <link rel="stylesheet" href="assets/css/mainCSS.css" />
+    </head>
+    <body>
+        <div class="header">
+            <h1>Michael J. Rempe</h1>
+            <nav>
+                <ul class="navTiles">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h2>Contact</h2>
+            <hr>
+            <form>
+                <p>Name:</p>
+                <input type="text" id="name" placeholder="John Doe"></input>
+                <p>Email:</p>
+                <input type="text" id="email" placeholder="YourEmail@example.com"></input> 
+                <p>Message:</p>
+                <textarea id="msg" placeholder="Write your message here... pls dont hack me, I don't know how to implement html entities"></textarea>
+            </form>
+            <button type="submit">Submit</button>
+            <hr>
+            <h4>Send me an <a href="mailto:michaeljrempe@gmail.com">email!</a> Or connect with me here: </h4>
+            <ul class="connectTiles">
+                    <li><a href="https://github.com/MichaelRempe/"><img src="assets/images/blk_GH.png" height= 40px width=40px></a></li>
+                    <li><a href="https://www.linkedin.com/in/michael-rempe-0138aaba/"><img src="assets/images/blk_LI.png" height= 40px width=40px></a></li>
+                    <li><a href="https://www.instagram.com/michaelrempe12/"><img src="assets/images/blk_IG.png" height= 40px width=40px></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="assets/images/blk_TI.svg" height= 40px width=40px></a></li>
+                </ul>
+        </div>
+        <div class="footer">
+            CopyRight 
+        </div>
+    </body>
+</html>
