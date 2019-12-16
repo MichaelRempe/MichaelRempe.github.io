@@ -68,11 +68,19 @@ p{
 }
 
 .footer{
-   position: sticky;
+   position: fixed;
    background-color: #24292e;
-   height: 50px;
+   height: 20px;
    width: 100%;
    bottom: 0;
+}
+.footer:hover{
+   height:40px;
+}
+.footer:hover img{
+   display: block;
+   height: 30px;
+   width: 30px;
 }
 .connectTiles{
    position:absolute;
@@ -80,17 +88,16 @@ p{
    list-style: none;
    margin:0;
    padding:0;
-   /* bottom: 2px; */
+   bottom: 0px;
    right:20px;
 }
 .connectTiles li{
    display: inline-block;
 }
 .connectTiles img{
-   height: 30px;
-   width: 30px;
+   display: none;
 }
 .connectTiles img:hover{
-   height: 40px;
-   width: 40px;
+   height: 35px;
+   width: 35px;
    }

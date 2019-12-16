@@ -34,17 +34,19 @@ p{
     margin: 0;
 }
 .portTiles{
-    display: block;
+  display: block;
+  margin: auto;
+}
+.portTiles li{
+    display:inline-block;
     margin: auto;
-    list-style: none;
 }
 .portImg{
     display:block;
-    margin: auto;
     height: 200px;
     width: 300px;
-    margin-top:20px;
-    margin-bottom: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
 }
 .content input{
     display: block;
@@ -62,4 +64,11 @@ p{
     margin-top: 3px;
     margin-bottom: 3px;
     border: black 1px solid;
+}
+.content form button{
+    margin: auto;
+    margin: 10px;
+}
+.content form p{
+    margin: 10px 0px 0px 10px;
 }
