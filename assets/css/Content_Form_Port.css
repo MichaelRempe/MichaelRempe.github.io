@@ -4,6 +4,8 @@
     margin:auto;
     border: #24292e 2px solid;
     margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
 }
 .content div{
     display: inline-block;
@@ -30,4 +32,34 @@ p{
     font-size: 16pt;
     padding: 0;
     margin: 0;
+}
+.portTiles{
+    display: block;
+    margin: auto;
+    list-style: none;
+}
+.portImg{
+    display:block;
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.content input{
+    display: block;
+    margin:auto;
+    width:900px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: black 1px solid;
+}
+.content textarea{
+    display: block;
+    margin:auto;
+    width:900px;
+    height:300px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: black 1px solid;
 }

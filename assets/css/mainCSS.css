@@ -68,7 +68,7 @@ p{
 }
 
 .footer{
-   position: absolute;
+   position: sticky;
    background-color: #24292e;
    height: 50px;
    width: 100%;
@@ -80,7 +80,7 @@ p{
    list-style: none;
    margin:0;
    padding:0;
-   bottom: 2px;
+   /* bottom: 2px; */
    right:20px;
 }
 .connectTiles li{

@@ -5,6 +5,7 @@
         <meta id="viewport" width="device-width, initial-scale=1"/>
         <title>Contact Page - MichaelJRempe.github.io</title>
         <link rel="stylesheet" href="assets/css/mainCSS.css" />
+        <link rel="stylesheet" href="assets/css/Content_Form_Port.css" />
     </head>
     <body>
         <div class="header">
@@ -21,14 +22,13 @@
         <div class="content">
             <form>
                 <p>Name:</p>
-                <input type="text" id="name" placeholder="John Doe"></input>
+                <input type="text" name="name" placeholder="John Doe"></input>
                 <p>Email:</p>
-                <input type="text" id="email" placeholder="YourEmail@example.com"></input> 
+                <input type="text" name="email" placeholder="YourEmail@example.com"></input> 
                 <p>Message:</p>
-                <textarea id="msg" placeholder="Write your message here... pls dont hack me, I don't know how to implement html entities"></textarea>
+                <textarea name="msg" placeholder="Write your message here... pls dont hack me, I don't know how to implement html entities"></textarea>
+                <button type="submit">Submit</button>
             </form>
-            <button type="submit">Submit</button>
-            <hr>
         </div>
         <div class="footer">
             <ul class="connectTiles">
