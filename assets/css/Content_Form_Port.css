@@ -1,0 +1,33 @@
+.content{
+    position: relative;
+    width: 960px;
+    margin:auto;
+    border: #24292e 2px solid;
+    margin-top: 10px;
+}
+.content div{
+    display: inline-block;
+    padding: 10px;
+}
+.aboutImg{
+    height:200px;
+    width: 300px;
+    padding:0;
+}
+.aboutP1{
+    width:600px;
+    height: 200px;
+    padding:0;
+    position: absolute;
+    top: 2px;
+}
+.imgME{
+    height:200px;
+    width: 300px;
+    padding:0;
+}
+p{
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
+}
